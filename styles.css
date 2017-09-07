@@ -1,3 +1,68 @@
-body{
-	
+body {
+	width: auto;
+	background-color: black;
+
+}
+
+ header, nav, aside, section, footer {
+	background: #14BCE6;
+	border: 1px solid white;
+	color: white;
+	text-align: center;
+}
+
+header {
+	height: 100px;
+	width: auto;
+}
+
+ nav {
+	height: 800px;
+	width: 500px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-top:10px;
+}
+
+ aside {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-top: 10px;
+} 
+
+section#b {
+	float: right;
+	height: 400px;
+	width: 500px;
+	margin-top: 10px;
+
+}
+
+ footer {
+	clear: both;
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:150px; 
+	height: 100px;
+}
+
+#kiri{
+	float: left;
+}
+
+#kanan{
+	float:right;
+	width: 250px;
+	height: 250px;
+	margin-right: 50px;
+}
+
+h1:hover {
+	color:black;
+}
+
+.rata{
+	margin-left:110px;
+	margin-right:110px; 
 }
